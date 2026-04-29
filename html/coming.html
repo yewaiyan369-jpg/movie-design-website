@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coming</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+
+<body>
+    <!-- nav bar  -->
+    <header>
+
+
+        <!-- menu open  -->
+        <ul class="sidebar">
+            <li onclick=hideSidebar()><a href="#"><i class="fa-solid fa-xmark"></i></a></li>
+            <div class="side_search">
+                <input type="text" placeholder="search">
+                <i class="fa fa-search"></i>
+            </div>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="movies.html">Movies</a></li>
+            <li><a href="coming.html" class="active">Coming</a></li>
+            <li><a href="contact.html">Contact</a></li>
+
+            <a href="login.html" class="btn">Sign In/Register</a>
+
+        </ul>
+        <ul class="navbar">
+            <a href="index.html" class="logo active"><i class="fa-solid fa-video"></i> Movies</a>
+
+            <li class="hide_on_mobile"><a href="index.html" class="active">Home</a></li>
+            <li class="hide_on_mobile"><a href="movies.html">Movies</a></li>
+            <li class="hide_on_mobile"><a href="coming.html">Coming</a></li>
+            <li class="hide_on_mobile"><a href="contact.html">Contact</a></li>
+            <div class="search">
+                <input type="text" placeholder="search">
+                <i class="fa fa-search"></i>
+            </div>
+            <a href="login.html" class="btn">Sign In/Register</a>
+
+            <li class="menu_bars" onclick=showSidebar()><a href="#"><i class="fa-solid fa-bars"></i></a></li>
+
+        </ul> 
+        <!-- menu close  -->
+
+
+
+
+        <!-- <a href="login.html" class="btn">Sign In/Register</a> -->
+    </header>
+    <!-- nav bar close  -->
+
+    <!-- coming soon section  -->
+    <section class="movies">
+        <div class="heading">
+            <h2 class="heading_item"><span>Coming Soon</span></h2>
+        </div>
+
+
+        <!-- movie container  -->
+        <div class="movie-container">
+            <!-- Movie 1  -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="../images/Toy_Story_5.jpg" />
+                </div>
+                <h3>Toy Story-5</h3>
+                <span>120 min | Cartoon</span>
+            </div>
+            <!-- Movie 1  -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="../images/Moana.jpg" />
+                </div>
+                <h3>Moana</h3>
+                <span>120 min | Adventure</span>
+            </div>
+            <!-- Movie 1  -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="../images/Avengers_Doomsday.jpg" />
+                </div>
+                <h3>Doomsday</h3>
+                <span>120 min | Action</span>
+            </div>
+            <!-- Movie 1  -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="../images/Dune_3.jpg" />
+                </div>
+                <h3>Dune-3</h3>
+                <span>120 min | Action</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer section  -->
+    <section class="footer">
+        <a href="#" class="logo"><i class="fa-solid fa-video"></i>Movies</a>
+        <div class="social">
+            <a href="#" class="logo"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#" class="logo"><i class="fa-brands fa-twitter"></i> </a>
+            <a href="#" class="logo"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="logo"><i class="fa-brands fa-tiktok"></i></a>
+        </div>
+    </section>
+
+    <script src="../js/script.js"></script>
+</body>
+
+</html>

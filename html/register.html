@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+</head>
+
+<body class="login_body">
+    <!-- nav bar  -->
+    <header>
+
+
+        <!-- menu open  -->
+        <ul class="sidebar">
+            <li onclick=hideSidebar()><a href="#"><i class="fa-solid fa-xmark"></i></a></li>
+            <div class="side_search">
+                <input type="text" placeholder="search">
+                <i class="fa fa-search"></i>
+            </div>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="movies.html">Movies</a></li>
+            <li><a href="coming.html">Coming</a></li>
+            <li><a href="contact.html">Contact</a></li>
+
+            <a href="login.html" class="btn">Sign In/Register</a>
+
+        </ul>
+        <ul class="navbar">
+            <a href="index.html" class="logo active"><i class="fa-solid fa-video"></i> Movies</a>
+
+            <li class="hide_on_mobile"><a href="index.html" class="active">Home</a></li>
+            <li class="hide_on_mobile"><a href="movies.html">Movies</a></li>
+            <li class="hide_on_mobile"><a href="coming.html">Coming</a></li>
+            <li class="hide_on_mobile"><a href="contact.html">Contact</a></li>
+           <div class="search">
+                <input type="text" placeholder="search">
+                <i class="fa fa-search"></i>
+            </div>
+            <a href="login.html" class="btn">Sign In/Register</a>
+
+            <li class="menu_bars" onclick=showSidebar()><a href="#"><i class="fa-solid fa-bars"></i></a></li>
+
+        </ul> 
+        <!-- menu close  -->
+
+
+
+
+        <!-- <a href="login.html" class="btn">Sign In/Register</a> -->
+    </header>
+    <!-- nav bar close  -->
+    <main>
+        <form class="form_container login">
+            <h1 class="page_title">Register Form</h1>
+            <div>
+                <input type="text" placeholder="Username" class="form_input">
+                <i class="fa-solid fa-user"></i>
+            </div>
+            <div>
+                <input type="email" placeholder="Email" class="form_input">
+                <i class="fa-solid fa-envelope"></i>
+            </div>
+            <div>
+                <input type="password" placeholder="Password" class="form_input">
+                <i class="fa-solid fa-lock"></i>
+            </div>
+            <div>
+                <input type="password" placeholder="Confirm Password" class="form_input">
+                <i class="fa-solid fa-lock"></i>
+            </div>
+
+            <div class="login_register">
+                <button type="submit" class="btn">Register</button>
+            </div>
+            <div class="forgot_register_already">
+
+                <a href="login.html">Already have an account? Login.</a>
+            </div>
+
+        </form>
+    </main>
+    <!-- footer section  -->
+    <section class="footer">
+        <a href="#" class="logo"><i class="fa-solid fa-video"></i>Movies</a>
+        <div class="social">
+            <a href="#" class="logo"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#" class="logo"><i class="fa-brands fa-twitter"></i> </a>
+            <a href="#" class="logo"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="logo"><i class="fa-brands fa-tiktok"></i></a>
+        </div>
+    </section>
+    <script src="../js/script.js"></script>
+</body>
+
+</html>
