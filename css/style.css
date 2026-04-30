@@ -96,7 +96,8 @@ header {
     width: 100%;
 }
 
-.search, .side_search{
+.search,
+.side_search{
     position: relative;
     width: 300px;
     height: 40px;
@@ -390,7 +391,7 @@ header {
 
 header.shadow {
     background: #020307;
-    box-shadow: 0 0 4px rgb(14 55 54 / 15%);
+    box-shadow: 0 0 4px rgba(14, 55, 54, 0.108);
 }
 
 header.shadow .navbar a,
